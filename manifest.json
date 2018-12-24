@@ -1,0 +1,71 @@
+{
+  "name": "Step Tracer",
+  "description": "Trace your step using the tree visualization when you surf the web",
+  "manifest_version": 2,
+  "version": "1.1.0",
+
+  "background": {
+    "scripts": [
+      "background/StepTreeStorage.js",
+      "background/background_utils.js",
+      "background/background.js",
+      "library/d3-hierarchy.v0.2.min.js"
+    ],
+    "persistent": true
+  },
+
+  "browser_action": {
+    "default_icon": "icons/icon48.png",
+    "default_popup": "browser_action/browser_action.html",
+    "default_title": "Step Tracer"
+  },
+
+  "content_scripts": [ {
+    "css": [
+      "content-script/content.css"
+    ],
+    "js": [
+      "content-script/content.js",
+      "content-script/content_visualization.js",
+      "library/d3.min.js",
+      "library/d3-selection.v0.7.min.js",
+      "library/jquery-3.3.1.min.js"
+    ],
+    "matches": [ "http://*/*", "https://*/*" ]
+  } ],
+
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "windows": "Ctrl+Q",
+        "mac": "Command+Shift+Y",
+        "linux": "Ctrl+Shift+J"
+      }
+    }
+  },
+
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "64": "icons/icon64.png",
+    "128": "icons/icon128.png"
+  },
+
+  "permissions": [
+    "history",
+    "tabs",
+    "activeTab",
+    "tabCapture",
+    "<all_urls>",
+    "contextMenus",
+    "storage"
+  ],
+
+  "web_accessible_resources": [
+    "icons/step48_blue.png",
+    "icons/step48_yellow.png",
+    "icons/step48_green.png",
+    "icons/thumbnail_default.jpg"
+  ]
+}

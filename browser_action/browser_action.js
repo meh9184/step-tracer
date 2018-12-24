@@ -26,7 +26,7 @@ function getActiveTab(callback) {
             // document.body.setAttribute('width', '242px');
             // document.body.setAttribute('height', '150px');
 
-            _image.setAttribute('src',chrome.extension.getURL('icons/thumbnail_default.jpg'));
+            _image.setAttribute('src',chrome.extension.getURL('icons/thumbnail_forbidden.jpg'));
             _image.setAttribute('width','323px');
             _image.setAttribute('height','200px');
             document.body.appendChild(_image);

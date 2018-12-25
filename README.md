@@ -20,7 +20,7 @@ $ npm install
 $ npm run build
 ```
 
-[웨일 개발자 센터](https://developers.whale.naver.com/tutorials/debugging/)에서 안내하는 방법에 따라 `확장앱 소스폴더`를 앞서 git clone을 통해 설치한 폴더로 설정합니다.
+[웨일 개발자 센터](https://developers.whale.naver.com/tutorials/debugging/)에서 안내하는 방법에 따라 `확장앱 소스폴더`를 앞서 git clone을 통해 설치한 폴더로 설정합니다.  
 
 
 ## 주요 기능

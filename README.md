@@ -89,7 +89,7 @@ $ npm run build
 
 ## 정보
 
-[문은환](https://github.com/meh9184) – meh9184@naver.com
+[Eunhwan Moon](https://github.com/meh9184) – meh9184@naver.com
 
 
 

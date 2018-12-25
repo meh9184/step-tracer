@@ -8,8 +8,8 @@
 ## 설치 방법
 
 [사용자 모드]
-1. [whale.naver.com](https://whale.naver.com)에서 웨일 브라우저 다운로드 및 설치
-2. 웨일 브라우저로 [웨일 스토어 - Step Tracer](https://store.whale.naver.com/detail/ldjkadggpjmffcdpcdeanhmmkifbekad)들어가서 '웨일에 추가하기' 버튼 클릭
+1. [웨일 브라우저](https://whale.naver.com) 다운로드 및 설치
+2. [Step Tracer 페이지](https://store.whale.naver.com/detail/ldjkadggpjmffcdpcdeanhmmkifbekad)들어가서 '웨일에 추가하기' 클릭
 
 [개발자 모드]
 

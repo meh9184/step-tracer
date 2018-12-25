@@ -7,16 +7,7 @@
 
 기억하기 힘든 복잡한 방문기록, [Step Tracer](https://store.whale.naver.com/detail/ldjkadggpjmffcdpcdeanhmmkifbekad)로 빠르게 접근하여 보다 편하게 웹 서핑을 즐겨보세요!
 
-<table>
-  <td>
-    <tr>
-      <img src="./screenshots/screenshot_1.png" alt="Ste tracer" style="width: 32px;" />      
-    </tr>
-    <tr>
-      <img src="./screenshots/screenshot_2.png" alt="Ste tracer" style="width: 32px;" />      
-    </tr>
-  </td>
-</table>
+<img src="./screenshots/screenshot_1.png" alt="Ste tracer" style="width: 32px;" /> 
 
 
 ## 설치 방법

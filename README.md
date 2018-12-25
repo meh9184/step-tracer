@@ -5,7 +5,7 @@
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-기억하기 힘든 복잡한 방문기록, [<Step Tracer>](https://store.whale.naver.com/detail/ldjkadggpjmffcdpcdeanhmmkifbekad)로 빠르게 접근하여 보다 편하게 웹 서핑을 즐겨보세요!
+기억하기 힘든 복잡한 방문기록, [Step Tracer](https://store.whale.naver.com/detail/ldjkadggpjmffcdpcdeanhmmkifbekad)로 빠르게 접근하여 보다 편하게 웹 서핑을 즐겨보세요!
 
 
 

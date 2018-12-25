@@ -9,7 +9,7 @@
 
 [사용자 모드]
 1. [웨일 브라우저](https://whale.naver.com) 다운로드 및 설치
-2. [Step Tracer 페이지](https://store.whale.naver.com/detail/ldjkadggpjmffcdpcdeanhmmkifbekad)들어가서 '웨일에 추가하기' 클릭
+2. [Step Tracer](https://store.whale.naver.com/detail/ldjkadggpjmffcdpcdeanhmmkifbekad) 페이지 들어가서 '웨일에 추가하기' 클릭
 
 [개발자 모드]
 

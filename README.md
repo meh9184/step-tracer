@@ -7,7 +7,7 @@
 
 기억하기 힘든 복잡한 방문기록, [Step Tracer](https://store.whale.naver.com/detail/ldjkadggpjmffcdpcdeanhmmkifbekad)로 빠르게 접근하여 보다 편하게 웹 서핑을 즐겨보세요!
 
-
+![스크린샷](./screenshots/screenshot_1.jpg)
 
 ## 설치 방법
 

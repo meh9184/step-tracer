@@ -5,7 +5,7 @@
 [![Build Status][travis-image]][travis-url]
 [![Downloads Stats][npm-downloads]][npm-url]
 
-기억하기 힘든 복잡한 방문기록, Step Tracer로 빠르게 접근하여 보다 편하게 웹 서핑을 즐겨보세요!
+기억하기 힘든 복잡한 방문기록, [<Step Tracer>](https://store.whale.naver.com/detail/ldjkadggpjmffcdpcdeanhmmkifbekad)로 빠르게 접근하여 보다 편하게 웹 서핑을 즐겨보세요!
 
 
 
@@ -93,7 +93,7 @@ $ npm run build
 
 ## 기여 방법
 
-1. (<https://github.com/yourname/yourproject/fork>)을 포크합니다.
+1. (<https://github.com/meh9184/step-tracer/fork>)을 포크합니다.
 2. (`git checkout -b feature/fooBar`) 명령어로 새 브랜치를 만드세요.
 3. (`git commit -am 'Add some fooBar'`) 명령어로 커밋하세요.
 4. (`git push origin feature/fooBar`) 명령어로 브랜치에 푸시하세요. 

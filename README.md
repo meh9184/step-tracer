@@ -10,6 +10,19 @@
 
 ![](../header.png)
 
+
+## 설치 방법
+
+```
+$ git clone https://github.com/meh9184/step-tracer
+$ cd step-tracer
+$ npm install
+$ npm run build
+```
+
+[웨일 개발자 센터](https://developers.whale.naver.com/tutorials/debugging/)에서 안내하는 방법에 따라 `확장앱 소스폴더`를 앞서 git clone을 통해 설치한 폴더로 설정합니다.
+
+
 ## 주요 기능
 - Step Tracer 버튼 클릭 / Ctrl+Q : 웹 페이지 방문기록을 Tree 모양으로 시각화
 - 노드 클릭 : 해당 페이지로 이동
@@ -68,19 +81,6 @@
 - pmw9027@hanyang.ac.kr
 
 
-## 설치 방법
-
-OS X & 리눅스:
-
-```sh
-npm install my-crazy-module --save
-```
-
-윈도우:
-
-```sh
-edit autoexec.bat
-```
 
 ## 사용 예제
 

@@ -1,7 +1,7 @@
 # Step Tracer
 > 웹 페이지의 방문기록을 트리 모양으로 시각화 해주는 Whale Extension 입니다.
 
-<img src="./screenshots/screenshot_1.png" alt="Ste tracer" style="width: 50%" /> 
+<img src="./screenshots/screenshot_1.png" alt="Ste tracer"/> 
 
 기억하기 힘든 복잡한 방문기록, [Step Tracer](https://store.whale.naver.com/detail/ldjkadggpjmffcdpcdeanhmmkifbekad)로 빠르게 접근하여 보다 편하게 웹 서핑을 즐겨보세요!
 

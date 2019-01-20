@@ -103,12 +103,12 @@ class StepTreeVisualization {
             // .css("height",`${(window.innerHeight - 10) / 2}px`);
 
 
-        $("#visual-history-container").append(
-            $('<img>',{id:'setting', src:`${chrome.extension.getURL('icons/step48_blue.png')}`})
-                .bind('click', function (evt) {
-                    alert(evt.target);
-                })
-        );
+        // $("#visual-history-container").append(
+        //     $('<img>',{id:'setting', src:`${chrome.extension.getURL('icons/step48_blue.png')}`})
+        //         .bind('click', function (evt) {
+        //             alert(evt.target);
+        //         })
+        // );
 
         var nodes = this.tree.nodes(this.root)
             .reverse();

@@ -102,6 +102,14 @@ class StepTreeVisualization {
             // .css("width", `${(window.innerWidth - 10) / 2}px`)
             // .css("height",`${(window.innerHeight - 10) / 2}px`);
 
+
+        $("#visual-history-container").append(
+            $('<img>',{id:'setting', src:`${chrome.extension.getURL('icons/step48_blue.png')}`})
+                .bind('click', function (evt) {
+                    alert(evt.target);
+                })
+        );
+
         var nodes = this.tree.nodes(this.root)
             .reverse();
         var links = this.tree.links(nodes);
@@ -182,7 +190,7 @@ class StepTreeVisualization {
                 }
                 else{
 
-                    let c = firstNCharacters(e.title, 20);
+                    let c = firstNCharacters(e.title, 100);
                     title = (c != "") ? "<br/><br/>" + c : "";
                     preview_img = e.image;
                     href = `href="${e.url}" `;

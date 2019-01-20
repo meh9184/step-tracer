@@ -22,11 +22,11 @@
 
   "content_scripts": [ {
     "css": [
-      "content-script/content.css"
+      "content_script/content.css"
     ],
     "js": [
-      "content-script/content.js",
-      "content-script/content_visualization.js",
+      "content_script/content.js",
+      "content_script/content_visualization.js",
       "library/d3.min.js",
       "library/d3-selection.v0.7.min.js",
       "library/jquery-3.3.1.min.js"

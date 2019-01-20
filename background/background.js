@@ -7,7 +7,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         if (request.action === 'get-tree') {
             chrome.tabs.get(request.data.tab.id, tab => {
                 if (tab.status === 'complete') {
-
+                    console.log('test');
                     chrome.tabs.sendMessage(request.data.tab.id, {'current':stepTreeStorage.getStepTreeForTabId(request.data.tab.id)});
 
                 }

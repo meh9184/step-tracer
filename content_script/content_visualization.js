@@ -105,8 +105,10 @@ class StepTreeVisualization {
 
         // $("#visual-history-container").append(
         //     $('<img>',{id:'setting', src:`${chrome.extension.getURL('icons/step48_blue.png')}`})
+        //         .css("left", `${parent.outerWidth}px`)
+        //         .css("top",`${parent.outerHeight}px`)
         //         .bind('click', function (evt) {
-        //             alert(evt.target);
+        //             alert('test');
         //         })
         // );
 

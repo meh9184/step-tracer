@@ -34,6 +34,9 @@
     "matches": [ "http://*/*", "https://*/*" ]
   } ],
 
+
+  "options_page": "options_page/options_page.html",
+
   "commands": {
     "_execute_browser_action": {
       "suggested_key": {

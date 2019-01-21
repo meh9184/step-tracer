@@ -3,23 +3,25 @@ let image;
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
-    if (request.from === 'option_page') {
-        if (request.action === 'change-options') {
-            console.log(request.data.previewMaxSize);
-        }
-    }
+
 
     if (request.from === 'browser_action') {
         if (request.action === 'get-tree') {
             chrome.tabs.get(request.data.tab.id, tab => {
                 if (tab.status === 'complete') {
-                    console.log('test');
-                    chrome.tabs.sendMessage(request.data.tab.id, {'current':stepTreeStorage.getStepTreeForTabId(request.data.tab.id)});
+
+                    chrome.tabs.sendMessage(request.data.tab.id, {
+                        'current':stepTreeStorage.getStepTreeForTabId(request.data.tab.id),
+                        'previewMaxSize':stepTreeStorage.previewMaxSize
+                    });
+
+                    // console.log('browser_action : ' + stepTreeStorage.previewMaxSize + '보냄');
 
                 }
             });
         }
     }
+
     else if(request.from === 'content') {
         if (request.action === 'beforeunload') {
 
@@ -35,7 +37,17 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
 
         } else { console.log("ERROR", request); }
+    }
+
+    else if (request.from === 'option_page') {
+        if (request.action === 'change-options') {
+
+            stepTreeStorage.previewMaxSize = request.data.previewMaxSize;
+
+        }
     } else { console.log("ERROR", request);}
+
+
 });
 
 // Listens for changes to tabs to see when pages are loaded

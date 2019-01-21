@@ -92,8 +92,8 @@ chrome.runtime.onMessage.addListener((data, sender, sendResponse) => {
 
             }
             else {
-
-                const stepTreeVisualization = new StepTreeVisualization(data['current'].depth, data['current'].width);
+                // alert(data['previewMaxSize'] + '받음');
+                const stepTreeVisualization = new StepTreeVisualization(data['current'].depth, data['current'].width, data['previewMaxSize']);
                 stepTreeVisualization.drawTree(data['current'].root, data['current'].currentNode);
 
                 SELECTING = !SELECTING;

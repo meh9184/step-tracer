@@ -4,6 +4,7 @@ class StepTreeStorage {
         this.rootsDict = {
             // tabId: tree
         };
+        this.previewMaxSize = 20;
     }
 
     updateNodeImageByNodeInfo(tabId, url, img){

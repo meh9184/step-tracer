@@ -1,5 +1,5 @@
 class StepTreeVisualization {
-    constructor(depth, leaves) {
+    constructor(depth, leaves, previewMaxSize) {
         this.margin = {
             top: 20,
             right: 80,
@@ -9,6 +9,8 @@ class StepTreeVisualization {
         // Height and width of popup window
         this.width = depth * 140 - this.margin.right - this.margin.left;
         this.height = leaves * 120 - this.margin.top - this.margin.bottom;
+        this.previewMaxSize = previewMaxSize;
+        // alert(this.previewMaxSize + '세팅함');
 
         this.i = 0;
         this.duration = 750;
@@ -45,6 +47,7 @@ class StepTreeVisualization {
         let x = null;
         let y = null;
         let deltaY = null;
+        let previewMaxSize = this.previewMaxSize;
         let blackList = [
             'github',
             'gitlab',
@@ -192,7 +195,7 @@ class StepTreeVisualization {
                 }
                 else{
 
-                    let c = firstNCharacters(e.title, 100);
+                    let c = firstNCharacters(e.title, previewMaxSize+1);
                     title = (c != "") ? "<br/><br/>" + c : "";
                     preview_img = e.image;
                     href = `href="${e.url}" `;
@@ -222,6 +225,11 @@ class StepTreeVisualization {
                         pTagMargin = 20;
                     }
 
+                    let textSizeMargin = 0;
+                    if(parseInt(previewMaxSize) > 20){
+                        textSizeMargin = 30;
+                    }
+
                     /////////////////////////////////////////////////////////////
                     $("#preview")
                         // 1, 2, 3, 4 사분면
@@ -237,7 +245,7 @@ class StepTreeVisualization {
                             `${ 242
                             + pTagMargin}px`
                         ).css("height",
-                            `${ 160
+                            `${ 160 + textSizeMargin
                             + pTagMargin}px`
                         )
 

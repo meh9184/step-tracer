@@ -3,6 +3,12 @@ let image;
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
+    if (request.from === 'option_page') {
+        if (request.action === 'change-options') {
+            console.log(request.data.previewMaxSize);
+        }
+    }
+
     if (request.from === 'browser_action') {
         if (request.action === 'get-tree') {
             chrome.tabs.get(request.data.tab.id, tab => {

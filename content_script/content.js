@@ -1,6 +1,6 @@
 let SELECTING = false;
 let svg = null;
-
+let previewMaxSize
 
 const container = document.createElement('div');
 

@@ -19,30 +19,24 @@ h1, h2, h3, h4, h5, h6 {
 body {
 	/*background-color: #ffc596 !important;*/
 	/*background-color: #f3f3f3 !important;*/
-	background-color: rgb(57, 147, 123) !important;
+	background-color: rgba(186, 186, 186, 0.83) !important;
 
 	font-size:10pt;
 	/*width:455px;*/
 	/*overflow:auto;*/
 }
-footer {
-	position:relative;
-	bottom: 0;
-	left: 0;
-	right: 0;
+.navbar {
+	background-color: #313236;
+	border-radius: 2px;
 }
-th.text-remove{
-	overflow:hidden;
-	text-overflow:ellipsis;
-	white-space:nowrap;
-	word-wrap:break-word;
-	word-break:break-all;
-	padding-right: 10px;
+.navbar p {
+	color: #ffffff;
+	display: inline-block;
+	font-size: 15px;
+	padding: 10px;
+	text-decoration: none;
 }
-label input{
-	margin-left: 5px;
-	margin-bottom: 10px;
-}
+
 .w3-white{
 	border-width: 5px;
 	border-color:#a8a8a8;
@@ -52,7 +46,6 @@ label input{
 .w3-teal {
 	background-color: #313236 !important;
 }
-
 #dt {
 	font:80%/1.45em "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
 	color:#333;
@@ -61,68 +54,4 @@ label input{
 	margin:0;
 	margin-top:10px;
 	padding:0;
-}
-.dataTables_length {
-	width:40%;
-	float:left;
-}
-.dataTables_filter {
-	width:50%;
-	float:right;
-	text-align:right;
-	overflow:hidden;
-	text-overflow:ellipsis;
-	white-space:nowrap;
-	word-wrap:break-word;
-	word-break:break-all;
-	margin-right: 3px;
-}
-.dataTables_paginate {
-	width:50px;
-	float:right;
-	text-align:right;
-}
-table{
-	position:relative;
-}
-table.display {
-	clear:both;
-	width:100%;
-	margin:0 auto;
-}
-table.display thead th {
-	border-bottom:1px solid #000;
-	font-weight:700;
-	cursor:hand;
-	padding:3px 18px 3px 10px;
-}
-div.multiple {
-	float:left;
-	background-color:#FFF;
-	width:100%;
-	height:48px;
-	border:1px solid #ccc;
-	cursor:pointer;
-	font-size:8pt;
-	overflow:auto;
-	z-index:0;
-	margin:2px;
-}
-table.display td {
-	padding:3px 10px;
-}
-tr.odd {
-	background-color: #ffffff;
-}
-tr.even {
-	background-color: #ffffff;
-}
-td.group {
-	background-color:#d1cfd0;
-	border-bottom:2px solid #A19B9E;
-	border-top:2px solid #A19B9E;
-}
-td.details {
-	background-color:#d1cfd0;
-	border:2px solid #A19B9E;
 }

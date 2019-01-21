@@ -2,7 +2,7 @@
   "name": "Step Tracer",
   "description": "기억하기 힘든 복잡한 방문기록, Step Tracer로 빠르게 접근하여 보다 편하게 웹 서핑을 즐겨보세요!",
   "manifest_version": 2,
-  "version": "1.1.0",
+  "version": "1.2.0",
 
   "background": {
     "scripts": [
@@ -33,7 +33,6 @@
     ],
     "matches": [ "http://*/*", "https://*/*" ]
   } ],
-
 
   "options_page": "options_page/options_page.html",
 

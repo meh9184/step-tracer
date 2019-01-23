@@ -164,10 +164,10 @@ class StepTreeVisualization {
             .attr('width', `${32}px`)
             .attr('height', `${32}px`)
             .attr('xlink:href', function(d){
-                if(d.root){
-                    return step_blue;
-                }else if(d.url === current_node.url) {
+                if(d.url  === current_node.url){
                     return step_yellow;
+                }else if(d.root) {
+                    return step_blue;
                 }else{
                     return step_green;
                 }

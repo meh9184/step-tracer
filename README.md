@@ -3,8 +3,12 @@
 
 <div>
   <div width='100%'>
-    <img src='./screenshots/screenshot_1.png' width='47%' height='350'>
-    <img src='./screenshots/screenshot_2.png' width='47%' height='350'>
+    <img src='./screenshots/screenshot_1.png' width='47%'>
+    <img src='./screenshots/screenshot_2.png' width='47%'>
+  </div>
+  <div width='100%'>
+    <img src='./screenshots/screenshot_3.png' width='47%'>
+    <img src='./screenshots/screenshot_4.png' width='47%'>
   </div>
 </div>
 <br>

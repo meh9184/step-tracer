@@ -109,7 +109,10 @@ $ npm run build
 
 ## 정보
 
-[Eunhwan Moon](https://github.com/meh9184) – meh9184@naver.com
+<h3>문은환 (Eunhwan Moon) <br></h3>
+<h6>E-mail : meh9184@naver.com</h6>
+<h6>Profile : <a href='https://meh9184.github.io'>https://meh9184.github.io</a></h6>
+<h6>Github : <a href='https://github.com/meh9184'>https://github.com/meh9184</a></h6>
 
 
 
